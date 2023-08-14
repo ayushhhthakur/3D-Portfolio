@@ -22,9 +22,9 @@ const ServiceCard = ({ index, title, icon }) => {
           }}
           className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col"
         >
-          <img src={icon} alt={title} className="w-16 h-16 object-contain"/>
+          <img src={icon} alt={title} className="w-16 h-16 object-contain" />
           <h3 className="text-white text-[20px] font-bold text-center">{title}</h3>
-          
+
         </div>
       </motion.div>
     </Tilt>
@@ -40,20 +40,19 @@ const About = () => {
       </motion.div>
 
       <motion.p
-        variant={fadeIn("","", 0.15, 1)}
+        variant={fadeIn("", "", 0.15, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
-      >
-        I'm a 3rd year Computer Science student and I'm interested in Web Development and AI/Ml.
+      >I am a motivated and enthusiastic student with a passion for web development and a strong desire to become a full-stack developer. With a strong background in computer science and a commitment to constantly learning and improving, I am eager to apply my skills and knowledge to develop innovative and engaging websites and applications. Whether working on a team or individually, I am dedicated to delivering high-quality results and finding creative solutions to challenging problems.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
         {
-          services.map((service, index) => 
-            <ServiceCard key={service.title} index={index} {...service}/>
+          services.map((service, index) =>
+            <ServiceCard key={service.title} index={index} {...service} />
           )
         }
-      </div>      
-      
+      </div>
+
     </>
   )
 }
