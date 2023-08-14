@@ -12,9 +12,9 @@ const Hero = () => {
           <div className="w-1 sm:h-80 h-40" style={{ background: 'linear-gradient(to top, rgba(255, 255, 255, 0) 0%, #8B5CF6 100%)' }} />
         </div> 
         <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm <span className="text-[#915eff]">Khoi</span></h1>
+          <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm <span className="text-[#915eff]">Ayush</span></h1>
           <p className={`${styles.heroSubText} mt-2 text-white-80`}>
-            I edit text for living ... and <br className="sm:block hidden" /> install Windows for fun
+            I love working on projects ... and <br className="sm:block hidden" />  I code for fun
           </p>
         </div>
       </div>

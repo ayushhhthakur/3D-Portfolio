@@ -43,7 +43,7 @@ const About = () => {
         variant={fadeIn("","", 0.15, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a sophomore student at HCMIU. I'm currently studying Computer Science and I'm interested in Web Development and security. Besides computers, I also love listening to music and reading books.
+        I'm a 3rd year Computer Science student and I'm interested in Web Development and AI/Ml.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
