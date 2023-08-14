@@ -8,5 +8,5 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['three'], // Exclude 'three' package
   },
-  base: 'https://tpspace.github.io/3D-Portfolio/'
+  base: 'https://ayush-thakur.netlify.app'
 })

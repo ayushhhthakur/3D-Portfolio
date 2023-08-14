@@ -28,3 +28,4 @@ src/assets/project-3.png
 
 # Local Netlify folder
 .netlify
+netlify.toml
