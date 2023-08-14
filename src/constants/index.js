@@ -54,7 +54,7 @@ import {
       icon: backend,
     },
     {
-      title: "CTF Player",
+      title: "Shell Scripting Wizard",
       icon: creator,
     },
   ];
@@ -72,22 +72,22 @@ import {
       name: "JavaScript",
       icon: javascript,
     },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
+    // {
+    //   name: "TypeScript",
+    //   icon: typescript,
+    // },
     {
       name: "React JS",
       icon: reactjs,
     },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
+    // {
+    //   name: "Redux Toolkit",
+    //   icon: redux,
+    // },
+    // {
+    //   name: "Tailwind CSS",
+    //   icon: tailwind,
+    // },
     {
       name: "Node JS",
       icon: nodejs,
@@ -96,22 +96,22 @@ import {
       name: "MongoDB",
       icon: mongodb,
     },
-    {
-      name: "Three JS",
-      icon: threejs,
-    },
+    // {
+    //   name: "Three JS",
+    //   icon: threejs,
+    // },
     {
       name: "git",
       icon: git,
     },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
-    },
+    // {
+    //   name: "figma",
+    //   icon: figma,
+    // },
+    // {
+    //   name: "docker",
+    //   icon: docker,
+    // },
   ];
   
   const experiences = [
@@ -120,44 +120,87 @@ import {
       company_name: "None",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "August 2022 - present",
+      date: "July 2023 - present",
       points: [
-        "Developing a project for the database course using React.js and other related technologies.",
-        "Collaborating with a team to make an app with React Native.",
+        "Developing a project on Tezos blockchain for the Tez Azia Hackathon using React.js, SmartPy, Taquito and other technologies.",
+        "Developed a single page web application for an institute/orginization.",
         "Making portfolio with React.js.",
       ],
     },
     {
-      title: "Java",
+      title: "Web Developer Intern",
+      company_name: "None",
+      icon: starbucks,
+      iconBg: "#E6DEDD",
+      date: "June 2023 - July 2023",
+      points: [
+        "At Nucleon, IIT Jammu",
+      ],
+    },
+    {
+      title: "Social Media Head",
+      company_name: "",
+      icon: shopify,
+      iconBg: "#383E56",
+      date: "Nov 2022 - June 2023",
+      points: [
+        "At IUCEE - Student Chapter, MIET Jammu",
+      ], 
+    },
+    {
+      title: "Java Script",
       company_name: "none",
       icon: tesla,
       iconBg: "#E6DEDD",
-      date: "Jul 2022 - Feb 2023",
+      date: "June 2022 - Oct 2022",
       points: [
         "Developing a bomberman man game using and other related technologies.",
         "Creating a backend server with Java Springboot.",
       ],
     },
     {
-      title: "Pascal",
+      title: "Python",
       company_name: "none",
       icon: shopify,
       iconBg: "#383E56",
-      date: "jun 2016 - Jan 2018",
+      date: "April 2022 - May 2022",
       points: [
-        "Printing hello world using Pascal.",
-        "Creating a simple game using Pascal.",
-        "Learning algorithm and data structure."
+        "Created My First Web App with Python and Flask",
+        "Creating an online platform for coder to connect with each other.",
+        "Learning OOPS data structure."
       ],
     },
+    {
+      title: "Linux/Ubuntu",
+      company_name: "none",
+      icon: meta,
+      iconBg: "#E6DEDD",
+      date: "Jan 2022 - March 2022",
+      points: [
+        "Introduction to Shell Scripting.",
+        "Developed a linux based simulator that simulates the functions of page replacement algorithms.",
+      ],
+    },
+    {
+      title: "Data Structure",
+      company_name: "none",
+      icon: meta,
+      iconBg: "#383E56",
+      date: "June 2021 - Oct 2022",
+      points: [
+        "Effectively used fundamental data structures like arrays, linked lists, and stacks.",
+        "Implemented advanced data structures such as trees, graphs.",
+      ],
+    },
+    
     {
       title: "Scratch",
       company_name: "none",
       icon: meta,
       iconBg: "#E6DEDD",
-      date: "Jan 2015 - Jun 2016",
+      date: "Dec 2021 - April 2021",
       points: [
-        "Learning the basics of programming.",
+        "Learning the basics of C programming.",
         "Creating a simple game using Scratch.",
       ],
     },
