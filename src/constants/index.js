@@ -254,7 +254,7 @@ import {
     {
       name: "CryptoPlay",
       description:
-        "A Decentrilized Web application that allows users create their fantasy team and compete with player world-wide and win rewards.",
+        "A Decentrilized Web application that allows users create their fantasy team and compete with player world-wide.",
       tags: [
         {
           name: "react",
@@ -275,7 +275,7 @@ import {
     {
       name: "Coding Community",
       description:
-        "a Flask-based web application that serves as an online platform connecting coders and fostering collaboration.",
+        "A Flask-based web application that serves as an online platform connecting coders and fostering collaboration.",
       tags: [
         {
           name: "Python",
