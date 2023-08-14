@@ -206,62 +206,62 @@ import {
     },
   ];
   
-  const testimonials = [
-    {
-      testimonial:
-        "Tao Làm được",
-      name: "Quang",
-      designation: "BE Developer",
-      company: "pencil",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "Tin chuẩn chưa anh",
-      name: "Phúc",
-      designation: "FE Developer",
-      company: "minecraft",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "Tui nấu được",
-      name: "Khang",
-      designation: "Fullstack Developer",
-      company: "Self Employed",
-      image: "https://randomuser.me/api/portraits/men/6.jpg",
-    },
-  ];
+  // const testimonials = [
+  //   {
+  //     testimonial:
+  //       "Tao Làm được",
+  //     name: "Quang",
+  //     designation: "BE Developer",
+  //     company: "pencil",
+  //     image: "https://randomuser.me/api/portraits/women/4.jpg",
+  //   },
+  //   {
+  //     testimonial:
+  //       "Tin chuẩn chưa anh",
+  //     name: "Phúc",
+  //     designation: "FE Developer",
+  //     company: "minecraft",
+  //     image: "https://randomuser.me/api/portraits/men/5.jpg",
+  //   },
+  //   {
+  //     testimonial:
+  //       "Tui nấu được",
+  //     name: "Khang",
+  //     designation: "Fullstack Developer",
+  //     company: "Self Employed",
+  //     image: "https://randomuser.me/api/portraits/men/6.jpg",
+  //   },
+  // ];
   
   const projects = [
     {
-      name: "Bomberman",
+      name: "Vibe",
       description:
-        "A Java swing game that is inspired by the classic Bomberman game.",
+        "Elevate your music experience with our Spotify-inspired clone, bringing your favorite tunes to life.",
       tags: [
         {
-          name: "Java",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "Java-Swing",
+          name: "JavaScript",
           color: "green-text-gradient",
         },
       ],
       image: bomberman,
-      source_code_link: "https://github.com/tpSpace/Bomberman-Adventure?organization=tpSpace&organization=tpSpace",
+      source_code_link: "https://github.com/ayushhhthakur/Vibe",
     },
     {
-      name: "Hospitals DBMS",
+      name: "CryptoPlay",
       description:
-        "Web application that allows users to book appointments with doctors, and allows doctors to manage their patients.",
+        "A Decentrilized Web application that allows users create their fantasy team and compete with player world-wide and win rewards.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Taquito",
           color: "green-text-gradient",
         },
         {
@@ -270,29 +270,29 @@ import {
         },
       ],
       image: HPDBMS,
-      source_code_link: "https://github.com/tpSpace/Hospital-DBMS",
+      source_code_link: "https://github.com/ayushhhthakur/Cryptoplay",
     },
     {
-      name: "Algorithms Visualizer",
+      name: "Coding Community",
       description:
-        "A simple web application that visualizes some of the most popular algorithms.",
+        "a Flask-based web application that serves as an online platform connecting coders and fostering collaboration.",
       tags: [
         {
-          name: "typescript",
+          name: "Python",
           color: "blue-text-gradient",
         },
         {
-          name: "html",
+          name: "Html",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "Css",
           color: "pink-text-gradient",
         },
       ],
       image: algorithms,
-      source_code_link: "https://github.com/tpSpace/Algorithms-Visualizer",
+      source_code_link: "https://github.com/ayushhhthakur/Coding-Community",
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, projects };
