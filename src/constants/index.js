@@ -147,17 +147,17 @@ import {
         "At IUCEE - Student Chapter, MIET Jammu",
       ], 
     },
-    {
-      title: "Java Script",
-      company_name: "none",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "June 2022 - Oct 2022",
-      points: [
-        "Developing a bomberman man game using and other related technologies.",
-        "Creating a backend server with Java Springboot.",
-      ],
-    },
+    // {
+    //   title: "Java Script",
+    //   company_name: "none",
+    //   icon: tesla,
+    //   iconBg: "#E6DEDD",
+    //   date: "June 2022 - Oct 2022",
+    //   points: [
+    //     "Developing a bomberman man game using and other related technologies.",
+    //     "Creating a backend server with Java Springboot.",
+    //   ],
+    // },
     {
       title: "Python",
       company_name: "none",
@@ -165,8 +165,8 @@ import {
       iconBg: "#383E56",
       date: "April 2022 - May 2022",
       points: [
-        "Created My First Web App with Python and Flask",
-        "Creating an online platform for coder to connect with each other.",
+        "Developed a Web Application with Python and Flask",
+        "Developing an online platform for coder to connect with each other.",
         "Learning OOPS data structure."
       ],
     },
