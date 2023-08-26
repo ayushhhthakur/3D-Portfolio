@@ -3,7 +3,8 @@ import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { logo, menu, close, Resume } from "../assets";
+import { logo, menu, close } from "../assets";
+import Resume from "../assets/Resume/Resume.pdf"
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -68,7 +69,8 @@ const Navbar = () => {
                 } hover:text-white text-[18px] font-medium cursor-pointer`}
               onClick={() => {
                 if (nav.id === "resume") {
-                  window.location.href = {Resume}; // Replace with the actual path to your resume PDF
+                  // window.location.href = "src/assets/Resume/Resume.pdf";
+                  window.open("src/assets/Resume/Resume.pdf", "_blank");
                 } else {
                   setActive(nav.title);
                 }
@@ -78,6 +80,7 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
+
 
 
         <div className='sm:hidden flex flex-1 justify-end items-center'>
