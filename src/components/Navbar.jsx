@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
-import Resume from "../assets/Resume/Resume.pdf"
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -70,7 +69,7 @@ const Navbar = () => {
               onClick={() => {
                 if (nav.id === "resume") {
                   // window.location.href = "src/assets/Resume/Resume.pdf";
-                  window.open("src/assets/Resume/Resume.pdf", "_blank");
+                  window.open("https://drive.google.com/file/d/1dqkumBFjkMsGbeZOtW3DINLumMFylfoG/view", "_blank");
                 } else {
                   setActive(nav.title);
                 }
