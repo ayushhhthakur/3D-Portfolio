@@ -2,4 +2,4 @@
 3D-Portfolio
 
 ##
-Visit my portfolio (here.)[https://ayush-thakur.netlify.app]
+Visit my portfolio [here.](https://ayush-thakur.netlify.app)
