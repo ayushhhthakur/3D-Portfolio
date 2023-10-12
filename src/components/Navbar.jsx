@@ -60,13 +60,15 @@ const Navbar = () => {
           ))}
         </ul> */}
 
-        <ul className='list-none hidden sm:flex flex-row gap-10'>
+        <ul className='{`${!toggle ? "hidden" : "flex"
+              } list-none hidden sm:flex flex-row gap-10'>
           {navLinks.map((nav) => (
             <li
               key={nav.id}
               className={`${active === nav.title ? "text-white" : "text-secondary"
                 } hover:text-white text-[18px] font-medium cursor-pointer`}
               onClick={() => {
+                setToggle(!toggle);
                 if (nav.id === "resume") {
                   // window.location.href = "src/assets/Resume/Resume.pdf";
                   window.open("https://drive.google.com/file/d/1dqkumBFjkMsGbeZOtW3DINLumMFylfoG/view", "_blank");
@@ -76,6 +78,7 @@ const Navbar = () => {
               }}
             >
               <a href={`#${nav.id}`}>{nav.title}</a>
+              {/* <Link to={`/${nav.id}`}>{nav.title}</Link> */}
             </li>
           ))}
         </ul>
